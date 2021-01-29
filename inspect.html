@@ -1,0 +1,1513 @@
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <title>巡查蝠隐私政策</title>
+    <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
+    <style type='text/css'>
+    html {
+        overflow-x: initial !important;
+    }
+ 
+    :root {
+        --bg-color: #ffffff;
+        --text-color: #333333;
+        --select-text-bg-color: #B5D6FC;
+        --select-text-font-color: auto;
+        --monospace: "Lucida Console", Consolas, "Courier", monospace;
+    }
+ 
+    html {
+        font-size: 14px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+ 
+    body {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        font-size: 1rem;
+        line-height: 1.42857;
+        overflow-x: hidden;
+        background: inherit;
+        tab-size: 4;
+    }
+ 
+    iframe {
+        margin: auto;
+    }
+ 
+    a.url {
+        word-break: break-all;
+    }
+ 
+    a:active, a:hover {
+        outline: 0px;
+    }
+ 
+    .in-text-selection, ::selection {
+        text-shadow: none;
+        background: var(--select-text-bg-color);
+        color: var(--select-text-font-color);
+    }
+ 
+    #write {
+        margin: 0px auto;
+        height: auto;
+        width: inherit;
+        word-break: normal;
+        overflow-wrap: break-word;
+        position: relative;
+        white-space: normal;
+        overflow-x: visible;
+        padding-top: 40px;
+    }
+ 
+    #write.first-line-indent p {
+        text-indent: 2em;
+    }
+ 
+    #write.first-line-indent li p, #write.first-line-indent p * {
+        text-indent: 0px;
+    }
+ 
+    #write.first-line-indent li {
+        margin-left: 2em;
+    }
+ 
+    .for-image #write {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+ 
+    body.typora-export {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+ 
+    .typora-export .footnote-line, .typora-export li, .typora-export p {
+        white-space: pre-wrap;
+    }
+ 
+    @media screen and (max-width: 500px) {
+        body.typora-export {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+ 
+        #write {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+ 
+        .CodeMirror-sizer {
+            margin-left: 0px !important;
+        }
+ 
+        .CodeMirror-gutters {
+            display: none !important;
+        }
+    }
+ 
+    #write li > figure:last-child {
+        margin-bottom: 0.5rem;
+    }
+ 
+    #write ol, #write ul {
+        position: relative;
+    }
+ 
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        image-orientation: from-image;
+    }
+ 
+    button, input, select, textarea {
+        color: inherit;
+        font: inherit;
+    }
+ 
+    input[type="checkbox"], input[type="radio"] {
+        line-height: normal;
+        padding: 0px;
+    }
+ 
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+ 
+    #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre {
+        width: inherit;
+    }
+ 
+    #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p {
+        position: relative;
+    }
+ 
+    p {
+        line-height: inherit;
+    }
+ 
+    h1, h2, h3, h4, h5, h6 {
+        break-after: avoid-page;
+        break-inside: avoid;
+        orphans: 4;
+    }
+ 
+    p {
+        orphans: 4;
+    }
+ 
+    h1 {
+        font-size: 2rem;
+    }
+ 
+    h2 {
+        font-size: 1.8rem;
+    }
+ 
+    h3 {
+        font-size: 1.6rem;
+    }
+ 
+    h4 {
+        font-size: 1.4rem;
+    }
+ 
+    h5 {
+        font-size: 1.2rem;
+    }
+ 
+    h6 {
+        font-size: 1rem;
+    }
+ 
+    .md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+ 
+    .hidden {
+        display: none;
+    }
+ 
+    .md-blockmeta {
+        color: rgb(204, 204, 204);
+        font-weight: 700;
+        font-style: italic;
+    }
+ 
+    a {
+        cursor: pointer;
+    }
+ 
+    sup.md-footnote {
+        padding: 2px 4px;
+        background-color: rgba(238, 238, 238, 0.7);
+        color: rgb(85, 85, 85);
+        border-radius: 4px;
+        cursor: pointer;
+    }
+ 
+    sup.md-footnote a, sup.md-footnote a:hover {
+        color: inherit;
+        text-transform: inherit;
+        text-decoration: inherit;
+    }
+ 
+    #write input[type="checkbox"] {
+        cursor: pointer;
+        width: inherit;
+        height: inherit;
+    }
+ 
+    figure {
+        overflow-x: auto;
+        margin: 1.2em 0px;
+        max-width: calc(100% + 16px);
+        padding: 0px;
+    }
+ 
+    figure > table {
+        margin: 0px;
+    }
+ 
+    tr {
+        break-inside: avoid;
+        break-after: auto;
+    }
+ 
+    thead {
+        display: table-header-group;
+    }
+ 
+    table {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        width: 100%;
+        overflow: auto;
+        break-inside: auto;
+        text-align: left;
+    }
+ 
+    table.md-table td {
+        min-width: 32px;
+    }
+ 
+    .CodeMirror-gutters {
+        border-right: 0px;
+        background-color: inherit;
+    }
+ 
+    .CodeMirror-linenumber {
+        user-select: none;
+    }
+ 
+    .CodeMirror {
+        text-align: left;
+    }
+ 
+    .CodeMirror-placeholder {
+        opacity: 0.3;
+    }
+ 
+    .CodeMirror pre {
+        padding: 0px 4px;
+    }
+ 
+    .CodeMirror-lines {
+        padding: 0px;
+    }
+ 
+    div.hr:focus {
+        cursor: none;
+    }
+ 
+    #write pre {
+        white-space: pre-wrap;
+    }
+ 
+    #write.fences-no-line-wrapping pre {
+        white-space: pre;
+    }
+ 
+    #write pre.ty-contain-cm {
+        white-space: normal;
+    }
+ 
+    .CodeMirror-gutters {
+        margin-right: 4px;
+    }
+ 
+    .md-fences {
+        font-size: 0.9rem;
+        display: block;
+        break-inside: avoid;
+        text-align: left;
+        overflow: visible;
+        white-space: pre;
+        background: inherit;
+        position: relative !important;
+    }
+ 
+    .md-diagram-panel {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 8px;
+        overflow-x: auto;
+    }
+ 
+    #write .md-fences.mock-cm {
+        white-space: pre-wrap;
+    }
+ 
+    .md-fences.md-fences-with-lineno {
+        padding-left: 0px;
+    }
+ 
+    #write.fences-no-line-wrapping .md-fences.mock-cm {
+        white-space: pre;
+        overflow-x: auto;
+    }
+ 
+    .md-fences.mock-cm.md-fences-with-lineno {
+        padding-left: 8px;
+    }
+ 
+    .CodeMirror-line, twitterwidget {
+        break-inside: avoid;
+    }
+ 
+    .footnotes {
+        opacity: 0.8;
+        font-size: 0.9rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+ 
+    .footnotes + .footnotes {
+        margin-top: 0px;
+    }
+ 
+    .md-reset {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        outline: 0px;
+        vertical-align: top;
+        background: 0px 0px;
+        text-decoration: none;
+        text-shadow: none;
+        float: none;
+        position: static;
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        cursor: inherit;
+        -webkit-tap-highlight-color: transparent;
+        line-height: normal;
+        font-weight: 400;
+        text-align: left;
+        box-sizing: content-box;
+        direction: ltr;
+    }
+ 
+    li div {
+        padding-top: 0px;
+    }
+ 
+    blockquote {
+        margin: 1rem 0px;
+    }
+ 
+    li .mathjax-block, li p {
+        margin: 0.5rem 0px;
+    }
+ 
+    li {
+        margin: 0px;
+        position: relative;
+    }
+ 
+    blockquote > :last-child {
+        margin-bottom: 0px;
+    }
+ 
+    blockquote > :first-child, li > :first-child {
+        margin-top: 0px;
+    }
+ 
+    .footnotes-area {
+        color: rgb(136, 136, 136);
+        margin-top: 0.714rem;
+        padding-bottom: 0.143rem;
+        white-space: normal;
+    }
+ 
+    #write .footnote-line {
+        white-space: pre-wrap;
+    }
+ 
+    @media print {
+        body, html {
+            border: 1px solid transparent;
+            height: 99%;
+            break-after: avoid;
+            break-before: avoid;
+            font-variant-ligatures: no-common-ligatures;
+        }
+ 
+        #write {
+            margin-top: 0px;
+            padding-top: 0px;
+            border-color: transparent !important;
+        }
+ 
+        .typora-export * {
+            -webkit-print-color-adjust: exact;
+        }
+ 
+        html.blink-to-pdf {
+            font-size: 13px;
+        }
+ 
+        .typora-export #write {
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 0px;
+            break-after: avoid;
+        }
+ 
+        .typora-export #write::after {
+            height: 0px;
+        }
+ 
+        .is-mac table {
+            break-inside: avoid;
+        }
+    }
+ 
+    .footnote-line {
+        margin-top: 0.714em;
+        font-size: 0.7em;
+    }
+ 
+    a img, img a {
+        cursor: pointer;
+    }
+ 
+    pre.md-meta-block {
+        font-size: 0.8rem;
+        min-height: 0.8rem;
+        white-space: pre-wrap;
+        background: rgb(204, 204, 204);
+        display: block;
+        overflow-x: hidden;
+    }
+ 
+    p > .md-image:only-child:not(.md-img-error) img, p > img:only-child {
+        display: block;
+        margin: auto;
+    }
+ 
+    #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img {
+        left: -2em;
+        position: relative;
+    }
+ 
+    p > .md-image:only-child {
+        display: inline-block;
+        width: 100%;
+    }
+ 
+    #write .MathJax_Display {
+        margin: 0.8em 0px 0px;
+    }
+ 
+    .md-math-block {
+        width: 100%;
+    }
+ 
+    .md-math-block:not(:empty)::after {
+        display: none;
+    }
+ 
+    [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus {
+        outline: 0px;
+        box-shadow: none;
+    }
+ 
+    .md-task-list-item {
+        position: relative;
+        list-style-type: none;
+    }
+ 
+    .task-list-item.md-task-list-item {
+        padding-left: 0px;
+    }
+ 
+    .md-task-list-item > input {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-left: -1.2em;
+        margin-top: calc(1em - 10px);
+        border: none;
+    }
+ 
+    .math {
+        font-size: 1rem;
+    }
+ 
+    .md-toc {
+        min-height: 3.58rem;
+        position: relative;
+        font-size: 0.9rem;
+        border-radius: 10px;
+    }
+ 
+    .md-toc-content {
+        position: relative;
+        margin-left: 0px;
+    }
+ 
+    .md-toc-content::after, .md-toc::after {
+        display: none;
+    }
+ 
+    .md-toc-item {
+        display: block;
+        color: rgb(65, 131, 196);
+    }
+ 
+    .md-toc-item a {
+        text-decoration: none;
+    }
+ 
+    .md-toc-inner:hover {
+        text-decoration: underline;
+    }
+ 
+    .md-toc-inner {
+        display: inline-block;
+        cursor: pointer;
+    }
+ 
+    .md-toc-h1 .md-toc-inner {
+        margin-left: 0px;
+        font-weight: 700;
+    }
+ 
+    .md-toc-h2 .md-toc-inner {
+        margin-left: 2em;
+    }
+ 
+    .md-toc-h3 .md-toc-inner {
+        margin-left: 4em;
+    }
+ 
+    .md-toc-h4 .md-toc-inner {
+        margin-left: 6em;
+    }
+ 
+    .md-toc-h5 .md-toc-inner {
+        margin-left: 8em;
+    }
+ 
+    .md-toc-h6 .md-toc-inner {
+        margin-left: 10em;
+    }
+ 
+    @media screen and (max-width: 48em) {
+        .md-toc-h3 .md-toc-inner {
+            margin-left: 3.5em;
+        }
+ 
+        .md-toc-h4 .md-toc-inner {
+            margin-left: 5em;
+        }
+ 
+        .md-toc-h5 .md-toc-inner {
+            margin-left: 6.5em;
+        }
+ 
+        .md-toc-h6 .md-toc-inner {
+            margin-left: 8em;
+        }
+    }
+ 
+    a.md-toc-inner {
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
+ 
+    .footnote-line a:not(.reversefootnote) {
+        color: inherit;
+    }
+ 
+    .md-attr {
+        display: none;
+    }
+ 
+    .md-fn-count::after {
+        content: ".";
+    }
+ 
+    code, pre, samp, tt {
+        font-family: var(--monospace);
+    }
+ 
+    kbd {
+        margin: 0px 0.1em;
+        padding: 0.1em 0.6em;
+        font-size: 0.8em;
+        color: rgb(36, 39, 41);
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(173, 179, 185);
+        border-radius: 3px;
+        box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+ 
+    .md-comment {
+        color: rgb(162, 127, 3);
+        opacity: 0.8;
+        font-family: var(--monospace);
+    }
+ 
+    code {
+        text-align: left;
+        vertical-align: initial;
+    }
+ 
+    a.md-print-anchor {
+        white-space: pre !important;
+        border-width: initial !important;
+        border-style: none !important;
+        border-color: initial !important;
+        display: inline-block !important;
+        position: absolute !important;
+        width: 1px !important;
+        right: 0px !important;
+        outline: 0px !important;
+        background: 0px 0px !important;
+        text-decoration: initial !important;
+        text-shadow: initial !important;
+    }
+ 
+    .md-inline-math .MathJax_SVG .noError {
+        display: none !important;
+    }
+ 
+    .html-for-mac .inline-math-svg .MathJax_SVG {
+        vertical-align: 0.2px;
+    }
+ 
+    .md-math-block .MathJax_SVG_Display {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        text-indent: 0px;
+        max-width: none;
+        max-height: none;
+        min-height: 0px;
+        min-width: 100%;
+        width: auto;
+        overflow-y: hidden;
+        display: block !important;
+    }
+ 
+    .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display {
+        width: auto;
+        margin: inherit;
+        display: inline-block !important;
+    }
+ 
+    .MathJax_SVG .MJX-monospace {
+        font-family: var(--monospace);
+    }
+ 
+    .MathJax_SVG .MJX-sans-serif {
+        font-family: sans-serif;
+    }
+ 
+    .MathJax_SVG {
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        zoom: 90%;
+        text-indent: 0px;
+        text-align: left;
+        text-transform: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        overflow-wrap: normal;
+        white-space: nowrap;
+        float: none;
+        direction: ltr;
+        max-width: none;
+        max-height: none;
+        min-width: 0px;
+        min-height: 0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+ 
+    .MathJax_SVG * {
+        transition: none 0s ease 0s;
+    }
+ 
+    .MathJax_SVG_Display svg {
+        vertical-align: middle !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+ 
+    .os-windows.monocolor-emoji .md-emoji {
+        font-family: "Segoe UI Symbol", sans-serif;
+    }
+ 
+    .md-diagram-panel > svg {
+        max-width: 100%;
+    }
+ 
+    [lang="flow"] svg, [lang="mermaid"] svg {
+        max-width: 100%;
+        height: auto;
+    }
+ 
+    [lang="mermaid"] .node text {
+        font-size: 1rem;
+    }
+ 
+    table tr th {
+        border-bottom: 0px;
+    }
+ 
+    video {
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+ 
+    iframe {
+        max-width: 100%;
+        width: 100%;
+        border: none;
+    }
+ 
+    .highlight td, .highlight tr {
+        border: 0px;
+    }
+ 
+    svg[id^="mermaidChart"] {
+        line-height: 1em;
+    }
+ 
+    mark {
+        background: rgb(255, 255, 0);
+        color: rgb(0, 0, 0);
+    }
+ 
+    .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong {
+        color: inherit;
+    }
+ 
+    mark .md-meta {
+        color: rgb(0, 0, 0);
+        opacity: 0.3 !important;
+    }
+ 
+    :root {
+        --side-bar-bg-color: #fafafa;
+        --control-text-color: #777;
+    }
+ 
+    @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+ 
+    /* open-sans-regular - latin-ext_latin */
+    /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+    html {
+        font-size: 16px;
+    }
+ 
+    body {
+        font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgb(51, 51, 51);
+        line-height: 1.6;
+    }
+ 
+    #write {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+ 
+    @media only screen and (min-width: 1400px) {
+        #write {
+            max-width: 1024px;
+        }
+    }
+ 
+    @media only screen and (min-width: 1800px) {
+        #write {
+            max-width: 1200px;
+        }
+    }
+ 
+    #write > ul:first-child, #write > ol:first-child {
+        margin-top: 30px;
+    }
+ 
+    a {
+        color: #4183C4;
+    }
+ 
+    h1, h2, h3, h4, h5, h6 {
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        line-height: 1.4;
+        cursor: text;
+    }
+ 
+    h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+        text-decoration: none;
+    }
+ 
+    h1 tt, h1 code {
+        font-size: inherit;
+    }
+ 
+    h2 tt, h2 code {
+        font-size: inherit;
+    }
+ 
+    h3 tt, h3 code {
+        font-size: inherit;
+    }
+ 
+    h4 tt, h4 code {
+        font-size: inherit;
+    }
+ 
+    h5 tt, h5 code {
+        font-size: inherit;
+    }
+ 
+    h6 tt, h6 code {
+        font-size: inherit;
+    }
+ 
+    h1 {
+        padding-bottom: .3em;
+        font-size: 2.25em;
+        line-height: 1.2;
+        border-bottom: 1px solid #eee;
+    }
+ 
+    h2 {
+        padding-bottom: .3em;
+        font-size: 1.75em;
+        line-height: 1.225;
+        border-bottom: 1px solid #eee;
+    }
+ 
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.43;
+    }
+ 
+    h4 {
+        font-size: 1.25em;
+    }
+ 
+    h5 {
+        font-size: 1em;
+    }
+ 
+    h6 {
+        font-size: 1em;
+        color: #777;
+    }
+ 
+    p, blockquote, ul, ol, dl, table {
+        margin: 0.8em 0;
+    }
+ 
+    li > ol, li > ul {
+        margin: 0 0;
+    }
+ 
+    hr {
+        height: 2px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #e7e7e7;
+        border: 0 none;
+        overflow: hidden;
+        box-sizing: content-box;
+    }
+ 
+    li p.first {
+        display: inline-block;
+    }
+ 
+    ul, ol {
+        padding-left: 30px;
+    }
+ 
+    ul:first-child, ol:first-child {
+        margin-top: 0;
+    }
+ 
+    ul:last-child, ol:last-child {
+        margin-bottom: 0;
+    }
+ 
+    blockquote {
+        border-left: 4px solid #dfe2e5;
+        padding: 0 15px;
+        color: #777777;
+    }
+ 
+    blockquote blockquote {
+        padding-right: 0;
+    }
+ 
+    table {
+        padding: 0;
+        word-break: initial;
+    }
+ 
+    table tr {
+        border-top: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    table tr:nth-child(2n), thead {
+        background-color: #f8f8f8;
+    }
+ 
+    table tr th {
+        font-weight: bold;
+        border: 1px solid #dfe2e5;
+        border-bottom: 0;
+        margin: 0;
+        padding: 6px 13px;
+    }
+ 
+    table tr td {
+        border: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 6px 13px;
+    }
+ 
+    table tr th:first-child, table tr td:first-child {
+        margin-top: 0;
+    }
+ 
+    table tr th:last-child, table tr td:last-child {
+        margin-bottom: 0;
+    }
+ 
+    .CodeMirror-lines {
+        padding-left: 4px;
+    }
+ 
+    .code-tooltip {
+        box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
+        border-top: 1px solid #eef2f2;
+    }
+ 
+    .md-fences, code, tt {
+        border: 1px solid #e7eaed;
+        background-color: #f8f8f8;
+        border-radius: 3px;
+        padding: 0;
+        padding: 2px 4px 0px 4px;
+        font-size: 0.9em;
+    }
+ 
+    code {
+        background-color: #f3f4f4;
+        padding: 0 2px 0 2px;
+    }
+ 
+    .md-fences {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+ 
+    .md-task-list-item > input {
+        margin-left: -1.3em;
+    }
+ 
+    @media print {
+        html {
+            font-size: 13px;
+        }
+ 
+        table, pre {
+            page-break-inside: avoid;
+        }
+ 
+        pre {
+            word-wrap: break-word;
+        }
+    }
+ 
+    .md-fences {
+        background-color: #f8f8f8;
+    }
+ 
+    #write pre.md-meta-block {
+        padding: 1rem;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f7f7f7;
+        border: 0;
+        border-radius: 3px;
+        color: #777777;
+        margin-top: 0 !important;
+    }
+ 
+    .mathjax-block > .code-tooltip {
+        bottom: .375rem;
+    }
+ 
+    .md-mathjax-midline {
+        background: #fafafa;
+    }
+ 
+    #write > h3.md-focus:before {
+        left: -1.5625rem;
+        top: .375rem;
+    }
+ 
+    #write > h4.md-focus:before {
+        left: -1.5625rem;
+        top: .285714286rem;
+    }
+ 
+    #write > h5.md-focus:before {
+        left: -1.5625rem;
+        top: .285714286rem;
+    }
+ 
+    #write > h6.md-focus:before {
+        left: -1.5625rem;
+        top: .285714286rem;
+    }
+ 
+    .md-image > .md-meta {
+        /*border: 1px solid #ddd;*/
+        border-radius: 3px;
+        padding: 2px 0px 0px 4px;
+        font-size: 0.9em;
+        color: inherit;
+    }
+ 
+    .md-tag {
+        color: #a7a7a7;
+        opacity: 1;
+    }
+ 
+    .md-toc {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+ 
+    .sidebar-tabs {
+        border-bottom: none;
+    }
+ 
+    #typora-quick-open {
+        border: 1px solid #ddd;
+        background-color: #f8f8f8;
+    }
+ 
+    #typora-quick-open-item {
+        background-color: #FAFAFA;
+        border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+        border-style: solid;
+        border-width: 1px;
+    }/** focus mode */
+    .on-focus-mode blockquote {
+        border-left-color: rgba(85, 85, 85, 0.12);
+    }
+ 
+    header, .context-menu, .megamenu-content, footer {
+        font-family: "Segoe UI", "Arial", sans-serif;
+    }
+ 
+    .file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state {
+        visibility: visible;
+    }
+ 
+    .mac-seamless-mode #typora-sidebar {
+        background-color: #fafafa;
+        background-color: var(--side-bar-bg-color);
+    }
+ 
+    .md-lang {
+        color: #b4654d;
+    }
+ 
+    .html-for-mac .context-menu {
+        --item-hover-bg-color: #E6F0FE;
+    }
+ 
+    #md-notification .btn {
+        border: 0;
+    }
+ 
+    .dropdown-menu .divider {
+        border-color: #e5e5e5;
+    }
+ 
+    .ty-preferences .window-content {
+        background-color: #fafafa;
+    }
+ 
+    .ty-preferences .nav-group-item.active {
+        color: white;
+        background: #999;
+    }
+    </style>
+</head>
+<body class='typora-export os-windows'>
+    <div id='write' class=''>
+        <h1> <a name="巡查使隐私政策" class="md-header-anchor"></a>
+            <span>巡查使隐私政策</span>
+        </h1>
+        <p><strong><span>更新/发布/生效时间：2021年2月17日</span></strong>
+        </p><p><span>您的信任对我们非常重要，我们深知个人信息对您的重要性，我们将按法律法规要求，采取相应安全保护措施，尽力保护您的个人信息安全可控。鉴于此，巡查使（或简称“我们”）制定本《巡查使隐私政策》（下称“本政策” 或“本隐私政策”）并提醒您：</span>
+        </p>
+        <p><span>请您在使用巡查蝠产品服务前，</span><strong> <span>仔细阅读并充分理解本《隐私政策》（重点内容我们已将字体加粗请您特别关注）并作出相应选择</span></strong><span>。一旦您使用或继续使用我们的产品/服务时，即意味着您同意我们按照本隐私政策处理您的相关信息。</span></p>
+        <p><span>如对本隐私政策有任何疑问，您可以通过本隐私政策“如何联系我们”中提供的方式与我们联系。</span>
+        </p>
+        <p><strong><span>请您注意，本政策不适用于您通过我们的产品/服务而接入的其他第三方产品/服务(“其他第三方”，包括您的交易相对方、任何第三方网站以及第三方服务提供者等)，具体规定请参照该第三方的隐私政策或类似声明。</span>
+            </strong>
+        </p>
+        <h2>
+            <a name="一我们如何收集和使用您的个人信息" class="md-header-anchor"></a>
+            <span>一、我们如何收集和使用您的个人信息</span>
+        </h2>
+        <p><span>在您使用我们的产品或服务时，我们需要/可能需要收集和使用的您的个人信息包括如下两种：</span>
+        </p>
+        <ol start=''>
+            <li><strong><span>为实现向您提供我们产品及/或服务的基本功能，您须授权我们收集、使用的必要的信息。如您拒绝提供相应信息，您将无法正常使用我们的产品或服务；</span></strong>
+            </li>
+            <li><strong><span>为实现向您提供我们产品及/或服务的附加功能，您可选择授权我们收集、使用的信息。如您拒绝提供，您将无法正常使用相关附加功能或无法达到我们拟达到的功能效果，但并不会影响您正常使用我们产品或服务的基本功能。</span></strong></li>
+        </ol>
+        <p><span>您理解并同意：</span></p>
+        <ol start=''>
+            <li><span>我们致力于提供优质完善的服务以满足您的需求，相应的，基本/附加功能及收集使用的个人信息类型、范围等会有所区别，请以具体的产品/服务功能为准；</span>
+            </li>
+            <li><span>为给您带来更好的产品和服务体验，我们在持续努力改进我们的技术，随之我们可能会不时推出新的或优化后的功能，可能需要收集、使用新的个人信息或变更个人信息使用目的或方式。对此，我们将通过更新本政策、弹窗、页面提示等方式另行向您说明对应信息的收集目的、范围及使用方式，并为您提供自主选择同意的方式，且在征得您明示同意后收集、使用。在此过程中，如果您有任何疑问、意见或建议的，您可通过巡查蝠平台提供的各种联系方式与我们联系，我们会尽快为您作出解答。</span>
+            </li>
+        </ol>
+        <p><span>我们会为实现本政策下述的各项功能，收集和使用您的个人信息：</span>
+        </p>
+        <ol start=''>
+            <li><strong><span>帮助您成为我们的用户：</span>
+ </strong><span>为遵守法律法规的要求，以及向您提供更个性化、更便捷的服务，在您注册成为巡查蝠用户时，您需要至少提供手机号码以创建巡查蝠账号，并完善相关的网络身份识别信息（如头像及登录密码等）。</span>
+                <span>如您选择授权使用第三方账号登录时，我们会从第三方获取您共享的账号信息（如头像、昵称、地区、性别等信息）与您的巡查蝠账号进行绑定用于快捷登录，我们会依据与第三方的约定，在符合相关法规的前提下，使用您的个人信息。</span>
+            </li>
+            <li> <strong><span>基于位置信息的任务打卡服务：</span></strong><span>巡查蝠的部分服务需要基于您的位置信息提供，如您需要任务定位打卡服务等，如果您开启设备的地理位置信息收集授权，巡查蝠将会收集您的位置信息，向您提供以上服务。此外您可以通过关闭定位功能，停止对您的地理位置信息的收集。</span>
+            </li>
+            <li><strong><span>基于相机/摄像头的服务：</span></strong><span>您可在开启相机/摄像头权限后使用该功能进行扫码、信息录入（比如录入二维码标签信息等）、拍照或录视频上传等。我们会收集您上传发布的上述信息，此项功能您可以在系统权限中关闭，一旦关闭您将可能无法实现扫码打卡功能，或者无法通过拍摄图片、视频等方式进行上报巡查情况。</span>
+            </li>
+            <li><strong><span>基于相册（图片库/视频库）的图片/视频访问及上传的服务：</span></strong><span>您可以选择开启系统的相册权限，通过主动上传图片、视频等方式授权我们访问您的相册，以便于您通过上传照片或上传视频等方式发布内容。我们会收集您选择上传发布的上述信息，此项功能您可以在系统权限中关闭，一旦关闭您将可能无法通过上传图片、视频等方式进行更换头像、发布带图上报巡查情况等。</span>
+            </li>
+            <li><strong><span>基于麦克风的语音技术服务：</span>
+</strong> <span>您可以选择开启系统的麦克风权限，我们会收集您录入的语音信息用于上报巡查情况等需求，此项功能您可以在系统权限中关闭，请您知晓，即使您已同意开启麦克风权限，我们也仅会在您主动点击客户端内麦克风图标或录制视频时通过麦克风获取语音信息。</span>
+            </li>
+            <li><strong><span>为您提供安全保障</span>
+</strong><span>为提高您使用我们及我们关联公司、合作伙伴提供服务的安全性，保护您或其他用户或公众的人身财产安全免遭侵害，更好地预防钓鱼网站、欺诈、网络漏洞、计算机病毒、网络攻击、网络侵入等安全风险，更准确地识别违反法律法规或巡查蝠相关协议规则的情况，我们在应用程序中嵌入我们关联公司开发的应用安全SDK收集您的设备信息、服务日志信息，并可能使用或整合您的会员信息、交易信息、设备信息、有关网络日志以及我们关联公司、合作伙伴取得您授权或依据法律共享的信息，来综合判断您账户及交易风险、进行身份验证、检测及防范安全事件，并依法采取必要的记录、审计、分析、处置措施。</span>
+            </li>
+        </ol>
+        <p><strong><span>您理解并同意，上述附加服务可能需要您在您的设备中开启您的位置信息 （地理位置）、摄像头（相机）、相册（图片库）、麦克风（语音）的访问权限，以实现这些权限所涉及信息的收集和使用</span>
+</strong><span>。您可在您的设备设置中逐项查看上述权限的状态，并可自行决定这些权限随时的开启或关闭。请您注意，您开启任一权限即代表您授权我们可以收集和使用相关个人信息来为您提供对应服务，您一旦关闭任一权限即代表您取消了授权，我们将不再基于对应权限继续收集和使用相关个人信息，也无法为您提供该权限所对应的服务。但是，您关闭权限的决定不会影响此前基于您的授权所进行的信息收集及使用。</span>
+        </p>
+        <h2><a name="二我们如何使用cookie和同类技术" class="md-header-anchor"></a><span>二、我们如何使用Cookie和同类技术</span>
+        </h2>
+        <h3><a name="一）cookie的使用" class="md-header-anchor"></a><span>（一）Cookie的使用</span>
+        </h3>
+        <p><span>为确保网站正常高效运转、为您获得更轻松的访问体验、我们会在您的设备终端/系统上存储名为 Cookie的小数据文件。Cookie会帮助您在后续访问我们网站时调用您的信息，简化您填写个人信息(例如一键登录等)的流程;为您提供安全购物的偏好设置;保护您的数据安全等。我们不会将 Cookie用于本隐私政策所述目的之外的任何用途。您可根据自己的偏好管理或删除 Cookie。您可以清除计算机或移动设备上保存的所有 Cookie，您有权接受或拒绝Cookie。大多数浏览器会自动接受Cookie，但您通常可根据自己的需要来修改浏览器的设置以拒绝Cookie;另外，您也可以清除软件内保存的所有Cookie。但您可能因此无法完全体验我们某些便捷性和安全性的服务功能。</span>
+        </p>
+        <h3><a name="二）网络beacon和同类技术的使用" class="md-header-anchor"></a><span>（二）网络Beacon和同类技术的使用</span>
+        </h3>
+        <p><span>除Cookie外，我们网页上常会包含一些电子图象(称为&quot;单像素&quot;GIF文件或&quot;网络Beacon&quot;)等其他同类技术，它们可以帮助网站计算浏览网页的用户或访问某些Cookie。我们使用网络Beacon的方式有:</span>
+        </p>
+        <ol start=''>
+            <li><span>我们通过在我们网站上使用网络Beacon，计算用户访问数量，并通过访问Cookie辨认注册用户。</span>
+            </li>
+            <li><span>我们通过得到的Cookie信息，可以在我们网站提供个性化服务。</span>
+            </li>
+        </ol>
+        <h2><a name="三我们如何共享转让公开披露您的个人信息" class="md-header-anchor"></a>
+            <span>三、我们如何共享、转让、公开披露您的个人信息</span>
+        </h2>
+        <h3><a name="一）共享" class="md-header-anchor"></a>
+            <span>（一）共享</span>
+        </h3>
+        <p><span>我们不会与其他公司、组织和个人共享您的个人信息，但以下情况除外：</span>
+        </p>
+        <ol start=''>
+            <li> <span>在获取明确同意的情况下共享：获得您的明确同意后，我们会与其他方共享您的个人信息。</span>
+            </li>
+            <li><span>在法定情形下的共享：我们可能会根据法律法规规定、诉讼争议解决需要，或按行政、司法机关依法提出的要求，对外共享您的个人信息。</span>
+            </li>
+            <li><span>与授权合作伙伴共享：我们会委托授权合作伙伴为您提供某些服务或代表我们履行职能，我们仅会出于合法、正当、必要、特定、明确的目的共享您的信息，授权合作伙伴只能接触到为其履行职责所需信息，且不能将此信息用于任何其他目的。</span>
+            </li>
+        </ol>
+        <p><span>为了使您能够接收信息推送、在第三方平台分享信息、使用地图服务等必要的功能用途，我们的应用中会嵌入授权合作伙伴的SDK或其他类似的应用程序。如您使用华为/小米手机时，华为/小米 Push SDK需要读取您的设备识别号、联网相关信息，用于推送/下发通知栏消息；如您使用向微信等第三方平台分享信息功能，相关SDK会收集您的设备识别号、联网相关信息、已安装的应用信息等；如您使用高德提供的地图服务，高德SDK需要您打开设备位置权限并收集设备所在位置相关信息信息、设备识别号、联网相关信息。</span>
+        </p>
+        <p><span>我们会对授权合作伙伴获取有关信息的应用程序接口（API）、软件工具开发包（SDK）进行严格的安全检测，并与授权合作伙伴其约定严格的数据保护措施，令其按照我们的委托目的、服务说明、本隐私权政策以及其他任何相关的保密和安全措施来处理个人信息。</span>
+        </p>
+        <p><span>为保障巡查蝠相关功能的实现与应用的稳定运行，我们可能会接入由第三方提供的软件开发包（SDK）以实现相关目的。一般包括一键登录类、推送通知消息类、地图导航类等。我们会对合作方获取信息的软件开发包（SDK）进行严格的安全监测，以保障数据安全。您可以通过以下链接查看第三方的数据使用和保护规则。</span>
+        </p>
+        <figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <span>第三方名称</span>
+                        </th>
+                        <th>
+                            <span>客户端</span>
+                        </th>
+                        <th>
+                            <span>功能</span>
+                        </th>
+                        <th>
+                            <span>使用目的</span>
+                        </th>
+                        <th>
+                            <span>涉及个人信息</span>
+                        </th>
+                        <th>
+                            <span>第三方官网链接</span>
+                        </th>
+                        <th>
+                            <span>第三方隐私政策</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>极光推送（JPush）</span>
+                        </td>
+                        <td>
+                            <span>Android、iOS</span>
+                        </td>
+                        <td>
+                            <span>推送</span>
+                        </td>
+                        <td>
+                            <span>为用户提供通知信息推送功能（巡检任务、工单提醒）</span>
+                        </td>
+                        <td>
+                            <span>设备信息</span>
+                        </td>
+                        <td>
+                            <a href='https://www.jiguang.cn/push'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href='https://www.jiguang.cn/license/privacy'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>高德地图（Amap）</span>
+                        </td>
+                        <td>
+                            <span>Android、iOS</span>
+                        </td>
+                        <td>
+                            <span>位置</span>
+                        </td>
+                        <td>
+                            <span>根据用户选择，为用户提供点位定位功能</span>
+                        </td>
+                        <td>
+                            <span>设备信息位置信息</span>
+                        </td>
+                        <td>
+                            <a href='https://www.amap.com/'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href='https://lbs.amap.com/home/privacy/'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>扫码服务</span>
+                        </td>
+                        <td>
+                            <span>Android</span>
+                        </td>
+                        <td>
+                            <span>扫码</span>
+                        </td>
+                        <td>
+                            <span>根据用户选择，为用户提供解析二维码功能</span>
+                        </td>
+                        <td>
+                            <span>-</span>
+                        </td>
+                        <td>
+                            <a href='https://developer.huawei.com/consumer/cn/hms/huawei-scankit'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href='https://consumer.huawei.com/cn/privacy/privacy-policy/'>
+                                <span>点击查看</span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </figure>
+        <h3>
+            <a name="二）转让" class="md-header-anchor"></a>
+            <span>（二）转让</span>
+        </h3>
+        <p><span>我们不会将您的个人信息转让给任何公司、组织和个人，但以下情况除外：</span>
+        </p>
+        <ol start=''>
+            <li> <span>在获取明确同意的情况下转让：获得您的明确同意后，我们会向其他方转让您的个人信息；</span>
+            </li>
+            <li><span>在巡查使发生合并、收购或破产清算情形，或其他涉及合并、收购或破产清算情形时，如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本政策的约束，否则我们将要求该公司、组织和个人重新向您征求授权同意。</span>
+            </li>
+        </ol>
+        <h3><a name="三）公开披露" class="md-header-anchor"></a> <span>（三）公开披露</span>
+        </h3>
+        <p><span>我们仅会在以下情况下，公开披露您的个人信息：</span></p>
+        <ol start=''>
+            <li><span>获得您明确同意或基于您的主动选择，我们可能会公开披露您的个人信息；</span>
+            </li>
+            <li><span>如果我们确定您出现违反法律法规或严重违反巡查蝠用户隐私相关协议规则的情况，或为保护我们及我们关联公司用户或公众的人身财产安全免遭侵害，我们可能依据法律法规或巡查蝠用户隐私相关协议规则征得您同意的情况下披露关于您的个人信息，包括相关违规行为以及我们已对您采取的措施。</span></li>
+        </ol>
+        <h3><a name="四）共享转让公开披露个人信息时事先征得授权同意的例外" class="md-header-anchor"></a><span>（四）共享、转让、公开披露个人信息时事先征得授权同意的例外</span>
+        </h3>
+        <p><span>以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意：</span>
+        </p>
+        <ol start=''>
+            <li><span>与国家安全、国防安全有关的；</span></li>
+            <li><span>与公共安全、公共卫生、重大公共利益有关的；</span></li>
+            <li><span>与犯罪侦查、起诉、审判和判决执行等有关的；</span></li>
+            <li><span>出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span>
+            </li>
+            <li><span>您自行向社会公众公开的个人信息；</span>
+            </li>
+            <li><span>从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道。</span><span>请知悉，根据适用的法律，若我们对个人信息采取技术措施和其他必要措施进行处理，使得数据接收方无法重新识别特定个人且不能复原，则此类处理后数据的共享、转让、公开披露无需另行向您通知并征得您的同意。</span>
+            </li>
+        </ol>
+        <h2><a name="四我们如何保护您的个人信息安全" class="md-header-anchor"></a><span>四、我们如何保护您的个人信息安全</span>
+        </h2>
+        <h3><a name="一）个人信息的保存" class="md-header-anchor"></a><span>（一）个人信息的保存</span>
+        </h3>
+        <ol start=''>
+            <li><span>保存期限：除非依据法律法规或双方约定，我们仅会在实现目的所必需的最短时间内留存您的相关个人信息。</span>
+            </li>
+            <li><span>保存地域：我们在中华人民共和国境内收集和产生的个人信息，将存储在中国境内，但以下情形除外：</span>
+            </li>
+        </ol>
+        <blockquote>
+            <p>
+                <span>(1)法律法规有明确规定的；</span>
+                <span>(2)单独征得您的授权同意；</span>
+            </p>
+        </blockquote>
+        <p>
+            <span>在上述情形中，我们会并要求数据接收方按照本隐私政策以及其他相关的安全保密措施来处理个人信息。</span>
+        </p>
+        <ol start='3'>
+            <li><span>终止运营：如果发生终止运营等情形，我们将会至少提前30天通知您，并在终止运营后对您的个人信息进行删除或匿名化处理。</span></li>
+        </ol>
+        <h3>
+            <a name="二）个人信息的保护措施" class="md-header-anchor"></a>
+            <span>（二）个人信息的保护措施</span>
+        </h3>
+        <ol start=''>
+            <li><span>我们已采取符合业界标准、合理可行的安全防护措施保护您的信息，防止个人信息遭到未经授权访问、公开披露、使用、修改、损坏或丢失。例如，在您的浏览器与服务器之间交换数据时受 SSL协议加密保护；我们同时对巡查蝠系统提供HTTPS协议安全浏览方式；我们会使用加密技术提高个人信息的安全性；我们会使用受信赖的保护机制防止个人信息遭到恶意攻击；我们会部署访问控制机制，尽力确保只有授权人员才可访问个人信息；以及我们会举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。</span>
+            </li>
+            <li><span>我们有行业先进的以数据为核心、围绕数据生命周期进行的数据安全管理体系，从组织建设、制度设计、人员管理、产品技术等方面多维度提升整个系统的安全性。目前，我们的重要信息系统已经通过网络安全等级保护的三级以上测评和ISO27001认证。</span>
+            </li>
+            <li><span>互联网并非绝对安全的环境，请使用复杂密码，协助我们保证您的账号安全。我们将尽力保障您发送给我们的任何信息的安全性。如果我们的物理、技术或管理防护设施遭到破坏，导致信息被非授权访问、公开披露、篡改或毁坏，导致您的合法权益受损，我们将承担相应的法律责任。</span>
+            </li>
+            <li><span>我们将不定期更新并公开安全风险、个人信息安全影响评估报告等有关内容，您可通过巡查蝠公告方式获得。</span>
+            </li>
+            <li><span>在不幸发生个人信息安全事件后，我们将按照法律法规的要求向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等。事件相关情况我们将以邮件、信函、电话、推送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。同时，我们还将按照监管部门要求，上报个人信息安全事件的处置情况。</span>
+            </li>
+        </ol>
+        <h2>
+            <a name="五您如何管理您的个人信息" class="md-header-anchor"></a>
+            <span>五、您如何管理您的个人信息</span>
+        </h2>
+        <p><span>您可以通过以下方式访问和管理您的信息：</span>
+        </p>
+        <h3><a name="一）您有权查询更正或补充您的信息您可以通过以下方式自行进行" class="md-header-anchor"></a>
+            <span>（一）您有权查询、更正或补充您的信息。您可以通过以下方式自行进行：</span>
+        </h3>
+        <ol start=''>
+            <li><span>登录巡查使网站，进入“巡查使”首页，点击个人账户设置后查询、更正个人资料及个人账户相关信息；</span>
+            </li>
+        </ol>
+        <h3>
+            <a name="二）删除您的信息" class="md-header-anchor"></a>
+            <span>（二）删除您的信息</span>
+        </h3><p><span>您可以通过“（一）您有权查询、更正或补充您的信息。您可以通过以下方式自行进行”中列明的方式删除您的部分信息。</span>
+        </p>
+        <p> <span>在以下情形中，您可以向我们提出删除个人信息的请求：</span>
+        </p>
+        <ol start=''>
+            <li> <span>如果我们处理个人信息的行为违反法律法规；</span></li>
+            <li> <span>如果我们处理个人信息的行为严重违反了与您的约定；</span></li>
+            <li> <span>如果您不再使用我们的产品或服务，或您主动注销了账号；</span></li>
+            <li> <span>如果我们永久不再为您提供产品或服务。</span>
+            </li>
+        </ol>
+        <p><span>若我们决定响应您的删除请求，我们还将同时尽可能通知从我们处获得您的个人信息的主体，要求其及时删除，除非法律法规另有规定，或这些主体获得您的独立授权。</span>
+        </p>
+        <p><span>当您或我们协助您删除相关信息后，因为适用的法律要求或安全技术原因，我们可能无法立即从备份系统中删除相应的信息，我们将安全地存储您的个人信息并将其与任何进一步处理隔离，直至备份更新时可以清除这些信息或实现匿名。</span>
+        </p>
+        <h3>
+            <a name="三）约束信息系统自动决策" class="md-header-anchor"></a>
+            <span>（三）约束信息系统自动决策</span>
+        </h3>
+        <p>
+            <span>在某些业务功能中，我们可能仅依据信息系统、算法等在内的非人工自动决策机制做出决定。如果这些决定显著影响您的合法权益，您有权要求我们做出解释，我们也将在不侵害巡查使商业秘密或其他用户权益、社会公共利益的前提下提供申诉方法。</span>
+        </p>
+        <h3><a name="四）注销您的账户" class="md-header-anchor"></a> <span>（四）注销您的账户</span>
+        </h3>
+        <p><span>您可以通过以下方式申请注销您的账户：</span></p>
+        <p><span>登录巡查使官方网站并选择联系客服寻求帮助，协助您申请注销您的账户。在您主动注销账户之后，我们将停止为您提供产品或服务，根据适用法律的要求删除您的个人信息，或使其匿名化处理。</span>
+        </p><h3><a name="五）响应您的上述请求" class="md-header-anchor"></a>
+            <span>（五）响应您的上述请求</span>
+        </h3>
+        <p><span>为保障安全，您可能需要提供书面请求，或以其他方式证明您的身份。我们可能会先要求您验证自己的身份，然后再处理您的请求。</span></p><p> <span>我们将在15天内做出答复。如您不满意，还可以通过巡查使客服发起投诉。</span></p><p><span>对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情况收取一定成本费用。对于那些与您的身份不直接关联、无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际的请求，我们可能会予以拒绝。</span></p> <p><span>在以下情形中，按照法律法规要求，我们将无法响应您的请求：</span> </p>
+        <ol start=''>
+            <li><span>与国家安全、国防安全有关的；</span></li>
+            <li><span>与公共安全、公共卫生、重大公共利益有关的；</span></li>
+            <li><span>与犯罪侦查、起诉、审判和执行判决等有关的；</span> </li>
+            <li><span>有充分证据表明个人信息主体存在主观恶意或滥用权利的；</span> </li>
+            <li><span>响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；</span></li>
+            <li><span>涉及商业秘密的；</span></li>
+            <li><span>与巡查使履行法律法规规定的义务相关的。</span>
+            </li>
+        </ol>
+        <h2>
+            <a name="六本隐私政策如何更新" class="md-header-anchor"></a>
+            <span>六、本隐私政策如何更新</span>
+        </h2>
+        <p> <span>为给您提供更好的服务，我们的业务将不时变化，本隐私政策也将随之调整。未经您明确同意，我们不会削减您依据本隐私政策所应享有的权利。我们会通过在我们网站、移动端上发出更新版本或以其他方式提醒您相关内容的更新，也请您访问我们以便及时了解最新的隐私政策。在前述情况下，若您继续使用我们的服务，即表示同意接受修订后的本政策并受之约束。</span>
+        </p>
+        <h2>
+            <a name="七如何联系我们" class="md-header-anchor"></a>
+            <span>七、如何联系我们</span>
+        </h2><p><span>您可以通过以下方式与我们联系，我们将在15天内答复您的请求：</span> </p><ol start=''>
+            <li><span>您可以通过巡查使官方网站（如http://xunchashi.e.cn.vc）/App上提供的在线联系方式/客服系统与我们联系；</span>
+            </li>
+            <li><span>您可以联系巡查使的客服电话进行反馈（客服热线：0755-83462229）。</span>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
+ 
